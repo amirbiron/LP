@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>אוטומציה בקלות — בוט WhatsApp שעונה ללקוחות שלכם 24/7</title>
+<meta name="description" content="בוט AI שעונה ללקוחות בוואטסאפ תוך שניות, קובע תורים ואוסף לידים. 30 יום חינם, ללא כרטיס אשראי.">
+<meta property="og:title" content="אוטומציה בקלות — בוט WhatsApp שעונה ללקוחות שלכם 24/7">
+<meta property="og:description" content="בוט AI שעונה ללקוחות בוואטסאפ תוך שניות, קובע תורים ואוסף לידים. 30 יום חינם, ללא כרטיס אשראי.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&amp;family=Frank+Ruhl+Libre:wght@500;700&amp;family=Noto+Sans+Hebrew:wght@400;500;700&amp;family=Secular+One&amp;display=swap" rel="stylesheet">
+<style>
+html,body{margin:0;padding:0;background:#F6F4EF;overflow-x:clip}
+*{box-sizing:border-box}
+a{color:#1E7A4E;text-decoration:underline;text-underline-offset:3px}
+a:hover{color:#16613D}
+:focus-visible{outline:2px solid #1E7A4E;outline-offset:3px}
+@media (prefers-reduced-motion: reduce){*{transition:none !important}}
+</style>
+</helmet>
+<div dir="rtl" lang="he" style="font-family:'Assistant',system-ui,sans-serif;color:#171614;background:#F6F4EF;font-size:18px;line-height:1.6;min-height:100vh;padding-bottom:{{ dockPad }}">
+
+<header style="max-width:1200px;margin:0 auto;padding:20px 24px;display:flex;align-items:center;justify-content:space-between;gap:16px">
+  <a href="#top" style="font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:24px;color:#171614;text-decoration:none;white-space:nowrap">אוטומציה בקלות</a>
+  <a href="https://wa.me/972543978620" target="_blank" rel="noopener" style="flex:none;white-space:nowrap;display:inline-flex;align-items:center;min-height:44px;padding:0 20px;border-radius:999px;border:1.5px solid #171614;color:#171614;text-decoration:none;font-weight:700;font-size:16px;transition:background-color .15s,color .15s" style-hover="background:#171614;color:#F6F4EF">דברו איתנו</a>
+</header>
+
+<section id="top" data-screen-label="Hero" style="max-width:1200px;margin:0 auto;padding:24px 24px 96px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,440px),1fr));gap:48px;align-items:center">
+  <div style="min-width:0">
+    <p style="margin:0 0 16px;color:#1E7A4E;font-weight:700;font-size:17px">לעסקים שמנהלים לקוחות בוואטסאפ</p>
+    <h1 style="margin:0;font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:clamp(40px,5vw,64px);line-height:1.08;letter-spacing:-0.01em;text-wrap:balance;overflow-wrap:break-word;min-width:0">בוט שבאמת עובד — ואתם <span style="color:#1E7A4E">שולטים בו לגמרי</span></h1>
+    <p style="margin:24px 0 0;font-size:20px;line-height:1.6;color:#4A4741;max-width:520px;text-wrap:pretty">עונה ללקוחות שלכם תוך שניות, קובע תורים ביומן שלכם ואוסף כל ליד לפאנל. אתם רואים הכול, ומתערבים מתי שבא לכם.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px">
+      <a href="https://wa.me/972543978620" target="_blank" rel="noopener" style="flex:none;white-space:nowrap;display:inline-flex;align-items:center;min-height:54px;padding:0 28px;border-radius:999px;background:#1E7A4E;color:#FFFFFF;text-decoration:none;font-weight:700;font-size:18px;transition:background-color .15s,transform .15s" style-hover="background:#16613D" style-active="transform:scale(0.98)">התחילו 30 יום חינם</a>
+      <a href="https://ai-business-chatbot-kjm4.onrender.com/demo" target="_blank" rel="noopener" style="flex:none;white-space:nowrap;display:inline-flex;align-items:center;min-height:54px;padding:0 28px;border-radius:999px;border:1.5px solid #CFC9BC;color:#171614;text-decoration:none;font-weight:700;font-size:18px;transition:border-color .15s" style-hover="border-color:#171614">סיור בפאנל האמיתי</a>
+    </div>
+    <ul style="list-style:none;margin:28px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 24px;font-size:16px;color:#5D5A54">
+      <li style="white-space:nowrap">ללא כרטיס אשראי</li>
+      <li style="white-space:nowrap">ללא התחייבות</li>
+      <li style="white-space:nowrap">WhatsApp API רשמי</li>
+    </ul>
+  </div>
+
+  <figure style="margin:0;min-width:0;display:flex;flex-direction:column">
+    <div style="border-radius:14px;overflow:hidden;border:1px solid #2A3040;background:#0B0F19;box-shadow:0 30px 60px -30px rgba(18,22,32,0.5)">
+      <img src="assets/panel-calendar.jpg" alt="פאנל הניהול — תצוגת תורים" style="display:block;width:100%;height:auto">
+    </div>
+    <div style="align-self:flex-start;width:min(100%,340px);margin-top:-150px;margin-inline-start:-12px;position:relative;background:#ECE7DC;border-radius:24px;padding:10px;box-shadow:0 24px 50px -20px rgba(40,34,20,0.45)">
+      <div style="background:#FFFFFF;border-radius:16px 16px 6px 6px;padding:10px 14px;display:flex;align-items:center;gap:10px">
+        <div style="width:34px;height:34px;border-radius:50%;background:#1E7A4E;flex:none"></div>
+        <div style="display:flex;flex-direction:column;line-height:1.25">
+          <strong style="font-size:16px">העסק שלך</strong>
+          <span style="font-size:13px;color:#1E7A4E">מגיב תמיד</span>
+        </div>
+      </div>
+      <div style="padding:14px 4px 6px;display:flex;flex-direction:column;gap:8px;font-size:15px;line-height:1.45">
+        <div style="align-self:flex-end;max-width:85%;background:#D6EEDD;border-radius:14px 14px 4px 14px;padding:8px 12px">היי, יש לכם מקום פנוי השבוע?<div style="font-size:12px;color:#5D5A54;text-align:left">22:47</div></div>
+        <div style="align-self:flex-start;max-width:85%;background:#FFFFFF;border-radius:14px 14px 14px 4px;padding:8px 12px">היי 🙂 יש לי פנוי ביום ג' ב-9:00 או ד' ב-16:30. מה נוח לך?<div style="font-size:12px;color:#5D5A54;text-align:left">22:47</div></div>
+        <div style="align-self:flex-end;max-width:85%;background:#D6EEDD;border-radius:14px 14px 4px 14px;padding:8px 12px">ג' ב-9:00 מעולה<div style="font-size:12px;color:#5D5A54;text-align:left">22:48</div></div>
+        <div style="align-self:flex-start;max-width:85%;background:#FFFFFF;border-radius:14px 14px 14px 4px;padding:8px 12px">קבעתי לך ✅ נכנס ליומן, ואשלח תזכורת יום לפני.<div style="font-size:12px;color:#5D5A54;text-align:left">22:48</div></div>
+      </div>
+    </div>
+    <figcaption style="margin-top:14px;display:flex;flex-wrap:wrap;gap:4px 16px;font-size:15px;color:#5D5A54">
+      <strong style="color:#171614">זמן תגובה: 3 שניות</strong>
+      <span>הלקוחה ישנה. התור נקבע.</span>
+    </figcaption>
+  </figure>
+</section>
+
+<section data-screen-label="Problem" style="border-top:1px solid #E3DFD6">
+  <div style="max-width:1200px;margin:0 auto;padding:96px 24px">
+    <div style="max-width:760px">
+      <p style="margin:0 0 12px;color:#1E7A4E;font-weight:700;font-size:17px">מה קורה בלי בוט</p>
+      <h2 style="margin:0;font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:clamp(32px,3.6vw,48px);line-height:1.15;text-wrap:balance;overflow-wrap:break-word">כל פנייה שלא נענית בזמן היא לקוח שהלך למישהו אחר</h2>
+      <p style="margin:20px 0 0;font-size:19px;color:#4A4741;text-wrap:pretty">אתם באמצע טיפול, בפגישה, או פשוט ישנים. ההודעות ממשיכות להגיע — והלקוח לא מחכה.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,250px),1fr));gap:40px 48px;margin-top:56px">
+      <div style="border-top:2px solid #171614;padding-top:20px"><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">הודעה שנכנסת ב-22:47</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">ונענית למחרת בבוקר. עד אז היא כבר קבעה במקום אחר.</p></div>
+      <div style="border-top:2px solid #171614;padding-top:20px"><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">"כמה זה עולה?" ללא מענה</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">השאלה הכי קלה בעולם, ואף אחד לא היה פנוי לענות עליה.</p></div>
+      <div style="border-top:2px solid #171614;padding-top:20px"><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">תורים על פתקים ובראש</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">מי מגיע מחר? מי ביטל? מתי צריך לשלוח תזכורת?</p></div>
+      <div style="border-top:2px solid #171614;padding-top:20px"><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">לידים שנעלמים בתוך הצ'אט</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">מישהו התעניין לפני שבועיים ואף אחד לא חזר אליו.</p></div>
+    </div>
+    <p style="margin:72px 0 0;font-family:'Frank Ruhl Libre',serif;font-weight:500;font-size:clamp(26px,2.8vw,36px);line-height:1.35;max-width:900px;text-wrap:balance">כל פנייה נענית תוך <strong style="font-weight:700;color:#1E7A4E">שניות</strong> — גם ב-2 בלילה, גם בשבת, גם כשאתם באמצע טיפול.</p>
+  </div>
+</section>
+
+<section data-screen-label="Features" style="background:#EFEBE3">
+  <div style="max-width:1200px;margin:0 auto;padding:96px 24px 64px">
+    <div style="max-width:760px">
+      <p style="margin:0 0 12px;color:#1E7A4E;font-weight:700;font-size:17px">מה מקבלים</p>
+      <h2 style="margin:0;font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:clamp(32px,3.6vw,48px);line-height:1.15;text-wrap:balance;overflow-wrap:break-word">שישה דברים שהבוט עושה במקומכם, כל יום</h2>
+      <p style="margin:20px 0 0;font-size:19px;color:#4A4741;text-wrap:pretty">הכול על בסיס המידע שאתם נותנים לו — ואתם רואים כל שיחה בפאנל.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:40px 48px;margin-top:56px">
+      <div><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">מענה 24/7 בשפה טבעית</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">מחירים, שעות, מדיניות, מיקום ושאלות נפוצות — בשיחה אמיתית, לא בתפריט לחצנים.</p></div>
+      <div><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">קובע תורים ביומן שלכם</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">מחובר ל-Google Calendar, מציג רק שעות פנויות באמת, ומוסיף את התור אוטומטית.</p></div>
+      <div><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">זוכר כל לקוח</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">מי הוא, מה שאל ומה חשוב לו. בפעם הבאה שהוא כותב — הבוט ממשיך מאיפה שהפסקתם.</p></div>
+      <div><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">תזכורות שמונעות ביטולים</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">יום לפני התור ושוב כמה שעות לפניו — פחות אי-הגעות, בלי שתזכרו אף אחד.</p></div>
+      <div><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">כל ליד נשמר לפאנל</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">טבלה מסודרת עם חיפוש, תגיות והערות — במקום אקסלים ופניות שנופלות.</p></div>
+      <div><h3 style="margin:0 0 8px;font-size:21px;font-weight:700;line-height:1.3">פאנל שאתם שולטים בו</h3><p style="margin:0;color:#4A4741;text-wrap:pretty">לוח בקרה חי, שיחה חיה עם לקוח בלחיצה, אנליטיקות ועריכת המידע של העסק בכל רגע.</p></div>
+    </div>
+  </div>
+  <div data-screen-label="Panel" style="background:#121620;padding:56px 24px 72px">
+    <div style="max-width:1200px;margin:0 auto">
+      <div role="tablist" style="display:flex;flex-wrap:wrap;gap:8px;margin-bottom:24px">
+        <button role="tab" onClick="{{ showChat }}" style="min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #3A4152;background:{{ bgChat }};color:{{ fgChat }};font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">יומן שיחות</button>
+        <button role="tab" onClick="{{ showKb }}" style="min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #3A4152;background:{{ bgKb }};color:{{ fgKb }};font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">בסיס ידע</button>
+        <button role="tab" onClick="{{ showCal }}" style="min-height:44px;padding:0 20px;border-radius:999px;border:1px solid #3A4152;background:{{ bgCal }};color:{{ fgCal }};font:inherit;font-size:16px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">תורים</button>
+      </div>
+      <div style="border-radius:14px;overflow:hidden;border:1px solid #2A3040;background:#0B0F19">
+        <sc-if value="{{ tabChat }}" hint-placeholder-val="{{ true }}"><img src="assets/panel-chats.jpg" alt="פאנל הניהול — יומן שיחות" style="display:block;width:100%;height:auto"></sc-if>
+        <sc-if value="{{ tabKb }}" hint-placeholder-val="{{ false }}"><img src="assets/panel-knowledge.jpg" alt="פאנל הניהול — בסיס ידע" style="display:block;width:100%;height:auto"></sc-if>
+        <sc-if value="{{ tabCal }}" hint-placeholder-val="{{ false }}"><img src="assets/panel-calendar.jpg" alt="פאנל הניהול — תורים" style="display:block;width:100%;height:auto"></sc-if>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Testimonials" style="max-width:1200px;margin:0 auto;padding:96px 24px">
+  <p style="margin:0 0 12px;color:#1E7A4E;font-weight:700;font-size:17px">לא רק אנחנו אומרים</p>
+  <h2 style="margin:0;font-family:'Frank Ruhl Libre',serif;font-weight:700;font-size:clamp(32px,3.6vw,48px);line-height:1.15">מה לקוחות אומרים עלינו</h2>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:48px;margin-top:56px">
+    <figure style="margin:0;display:flex;flex-direction:column;gap:20px">
+      <blockquote style="margin:0;font-family:'Frank Ruhl Libre',serif;font-size:21px;line-height:1.55;text-wrap:pretty">"מתוך ניסיון אמיתי בעבודה משותפת על פרויקט ללקוח עסקי. אמיר יודע להקשיב, להבין בדיוק מה צריך, ולבצע מהר… והכי חשוב בעיניי — יש לו הבנה של צד המשתמש, ורואים את זה בתוצאה."</blockquote>
+      <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto">
+        <button onClick="{{ openWerai }}" aria-label="להודעה המקורית" style="flex:none;width:56px;height:56px;border-radius:10px;overflow:hidden;border:1px solid #CFC9BC;padding:0;cursor:zoom-in;background:#FFFFFF;transition:transform .15s" style-hover="transform:scale(1.05)"><img src="assets/fb-werai.png" alt="" style="width:100%;height:100%;object-fit:cover;object-position:top"></button>
+        <div style="display:flex;flex-direction:column;font-size:15px;line-height:1.4;color:#5D5A54"><span><strong style="color:#171614;font-size:17px">WeRAI</strong>, מתאם לקוחות</span></div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:20px">
+      <blockquote style="margin:0;font-family:'Frank Ruhl Libre',serif;font-size:21px;line-height:1.55;text-wrap:pretty">"אני ממליץ בחום על אמיר חיים. אדם מקצועי, אמין ונעים לעבוד איתו… הוא מביא איתו יכולת מצוינת לפתור בעיות בצורה יעילה וחכמה."</blockquote>
+      <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto">
+        <button onClick="{{ openDelivery }}" aria-label="להודעה המקורית" style="flex:none;width:56px;height:56px;border-radius:10px;overflow:hidden;border:1px solid #CFC9BC;padding:0;cursor:zoom-in;background:#FFFFFF;transition:transform .15s" style-hover="transform:scale(1.05)"><img src="assets/fb-delivery.png" alt="" style="width:100%;height:100%;object-fit:cover;object-position:top"></button>
+        <div style="display:flex;flex-direction:column;font-size:15px;line-height:1.4;color:#5D5A54"><strong style="color:#171614;font-size:17px">לקוח עסקי</strong><span>מערכת ניהול משלוחים (WhatsApp &amp; Telegram)</span></div>
+      </figcaption>
+    </figure>
+    <figure style="margin:0;display:flex;flex-direction:column;gap:20px">
+      <blockquote style="margin:0;font-family:'Frank Ruhl Libre',serif;font-size:21px;line-height:1.55;text-wrap:pretty">"אמיר לקח את הרעיון שלי והפך אותו לאתר שעונה בדיוק על מה שדמיינתי… העבודה הייתה מהירה, נעימה ומקצועית. ממליצה בחום!"</blockquote>
+      <figcaption style="display:flex;align-items:center;gap:14px;margin-top:auto">
+        <button onClick="{{ openRoutine }}" aria-label="להודעה המקורית" style="flex:none;width:56px;height:56px;border-radius:10px;overflow:hidden;border:1px solid #CFC9BC;padding:0;cursor:zoom-in;background:#FFFFFF;transition:transform .15s" style-hover="transform:scale(1.05)"><img src="assets/fb-routine.png" alt="" style="width:100%;height:100%;object-fit:cover;object-position:top"></button>
+        <div style="display:flex;flex-direction:column;font-size:15px;line-height:1.4;color:#5D5A54"><strong style="color:#171614;font-size:17px">מיזם חברתי</strong><span>אתר שגרה לזמני חירום</span></div>
+      </figcaption>
+    </figure>
+  </div>
+</section>
+
+<section data-screen-label="Pricing" style="background:#FFFFFF">
+  <div style="max-width:1160px;margin:0 auto;padding:96px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:56px;align-items:center">
+    <div>
+      <p style="margin:0 0 12px;color:#0E7C5A;font-weight:700;font-size:16px">תמחור</p>
+      <h2 style="margin:0;font-family:'Secular One',sans-serif;font-weight:400;font-size:clamp(30px,3.4vw,46px);line-height:1.18;text-wrap:balance">חודש שלם חינם, אחר כך מחיר אחד</h2>
+      <p style="margin:18px 0 0;font-size:18px;color:#3B5246;max-width:460px;text-wrap:pretty">בלי מדרגות מסובכות ובלי הפתעות. מנסים חינם, ואם זה מתאים — ממשיכים.</p>
+      <ul style="list-style:none;margin:32px 0 0;padding:0;display:flex;flex-direction:column;gap:10px;font-size:17px">
+        <li style="display:flex;gap:12px"><span style="color:#0E7C5A;font-weight:700">✓</span>חיבור רשמי ל-WhatsApp Business API</li>
+        <li style="display:flex;gap:12px"><span style="color:#0E7C5A;font-weight:700">✓</span>דשבורד ניהול שיחות מלא מכל מקום</li>
+        <li style="display:flex;gap:12px"><span style="color:#0E7C5A;font-weight:700">✓</span>בוט AI שעונה ללקוחות 24/7 בשפה טבעית</li>
+        <li style="display:flex;gap:12px"><span style="color:#0E7C5A;font-weight:700">✓</span>איסוף לידים אוטומטי ישירות לדשבורד</li>
+        <li style="display:flex;gap:12px"><span style="color:#0E7C5A;font-weight:700">✓</span>תבניות הודעה, תזכורות וניהול הצעות מחיר</li>
+        <li style="display:flex;gap:12px"><span style="color:#0E7C5A;font-weight:700">✓</span>הודעות ללא הגבלה בחלון 24 השעות</li>
+      </ul>
+    </div>
+    <div style="background:#0E7C5A;color:#FFFFFF;border-radius:32px 32px 32px 8px;padding:44px 40px">
+      <span style="display:inline-block;background:#FFFFFF;color:#0A5F45;font-weight:700;font-size:15px;padding:6px 14px;border-radius:999px">30 יום ניסיון חינם</span>
+      <div style="font-family:'Secular One',sans-serif;font-size:120px;line-height:1;margin-top:24px">0₪</div>
+      <p style="margin:8px 0 0;font-size:18px;color:#D2F0DC">מה שאתם משלמים עכשיו</p>
+      <div style="display:flex;flex-wrap:wrap;gap:4px 18px;margin-top:20px;padding-top:20px;border-top:1px solid rgba(255,255,255,0.25);font-size:16px;color:#E6F5EC">
+        <span>לאחר מכן: <strong style="color:#FFFFFF">300₪ לחודש</strong></span><span>ללא כרטיס אשראי</span><span>ללא התחייבות</span>
+      </div>
+      <a href="https://wa.me/972543978620" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;min-height:56px;margin-top:28px;border-radius:999px;background:#FFFFFF;color:#0F2A1E;text-decoration:none;font-weight:700;font-size:18px;transition:background-color .15s,transform .15s" style-hover="background:#E9EFE6" style-active="transform:scale(0.98)">התחילו חודש ניסיון חינם</a>
+      <p style="margin:14px 0 0;font-size:15px;color:#D2F0DC;text-align:center">אפשר לשדרג למודל AI חכם יותר בתוספת 30₪/לחודש</p>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Capabilities" style="max-width:1160px;margin:0 auto;padding:96px 24px">
+  <div style="max-width:720px">
+    <p style="margin:0 0 12px;color:#0E7C5A;font-weight:700;font-size:16px">35 יכולות · הרשימה המלאה</p>
+    <h2 style="margin:0;font-family:'Secular One',sans-serif;font-weight:400;font-size:clamp(30px,3.4vw,46px);line-height:1.18">למי שרוצה להעמיק</h2>
+    <p style="margin:18px 0 0;font-size:18px;color:#3B5246;text-wrap:pretty">כל מה שהבוט ופאנל הניהול יודעים לעשות, מחולק לפי נושא.</p>
+  </div>
+  <div role="tablist" style="display:flex;flex-wrap:wrap;gap:8px;margin-top:40px">
+    <button role="tab" onClick="{{ c0 }}" style="min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:{{ cb0 }};color:{{ cf0 }};font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">שיחה חכמה וזיכרון לקוחות (6)</button>
+    <button role="tab" onClick="{{ c1 }}" style="min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:{{ cb1 }};color:{{ cf1 }};font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">קביעת תורים וניהול יומן (7)</button>
+    <button role="tab" onClick="{{ c2 }}" style="min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:{{ cb2 }};color:{{ cf2 }};font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">לידים, מעקב והפניות (4)</button>
+    <button role="tab" onClick="{{ c3 }}" style="min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:{{ cb3 }};color:{{ cf3 }};font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">פאנל ניהול ותובנות (6)</button>
+    <button role="tab" onClick="{{ c4 }}" style="min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:{{ cb4 }};color:{{ cf4 }};font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">שיחה חיה ומעבר לנציג (3)</button>
+    <button role="tab" onClick="{{ c5 }}" style="min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:{{ cb5 }};color:{{ cf5 }};font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">שידורים ועדכונים ללקוחות (4)</button>
+    <button role="tab" onClick="{{ c6 }}" style="min-height:44px;padding:0 18px;white-space:nowrap;border-radius:999px;border:0;background:{{ cb6 }};color:{{ cf6 }};font:inherit;font-size:15px;font-weight:700;cursor:pointer;transition:background-color .15s,color .15s">פרטיות, בקרה ותמיכה (5)</button>
+  </div>
+  <div style="margin-top:20px;background:#FFFFFF;border-radius:24px;padding:32px">
+    <sc-if value="{{ g0 }}" hint-placeholder-val="{{ true }}"><ul style="margin:0;padding:0 20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px 40px;color:#3B5246;text-wrap:pretty">
+      <li><strong style="color:#0F2A1E">מענה בזמן אמת 24/7</strong> על כל שאלה — מחירים, שעות, מדיניות, מיקום, צוות ושאלות נפוצות, על בסיס המידע שאתם נותנים לו.</li>
+      <li><strong style="color:#0F2A1E">הבוט זוכר את הלקוחות שלכם</strong> — מי הם, מה שאלו ומה חשוב להם. בפעם הבאה שלקוח כותב, הבוט ממשיך מאיפה שהפסקתם.</li>
+      <li><strong style="color:#0F2A1E">יודע מתי אתם פתוחים או סגורים</strong> ומגיב בהתאם — בלי לקבוע תור לשעה שהעסק סגור בה.</li>
+      <li><strong style="color:#0F2A1E">מציע שאלות המשך</strong> אחרי כל תשובה, ואם הוא לא בטוח — מציע לנסח מחדש או להעביר אתכם ישירות.</li>
+      <li><strong style="color:#0F2A1E">בוחרים לבוט אישיות</strong> — ידידותי, רשמי, מכירתי, יוקרתי או ניטרלי — או כותבים לו הנחיות משלכם בדיוק בסגנון העסק.</li>
+      <li><strong style="color:#0F2A1E">עונה רק על סמך המידע האמיתי שלכם</strong> — אם אין לו תשובה מבוססת, הוא לא ממציא, אלא מפנה אתכם לנציג.</li>
+    </ul></sc-if>
+    <sc-if value="{{ g1 }}" hint-placeholder-val="{{ false }}"><ul style="margin:0;padding:0 20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px 40px;color:#3B5246;text-wrap:pretty">
+      <li><strong style="color:#0F2A1E">קביעת תור אינטראקטיבית</strong> — הלקוח בוחר שירות, תאריך ושעה, או פשוט כותב "מחר" או "יום ראשון" והבוט מבין.</li>
+      <li><strong style="color:#0F2A1E">אתם בוחרים איך תורים מאושרים</strong> — ידני (הכל מחכה לאישורכם), אוטומטי עם בדיקת יומן, או אוטומטי לגמרי.</li>
+      <li><strong style="color:#0F2A1E">מחובר ליומן Google שלכם</strong> — מציג ללקוח רק שעות פנויות באמת, ומוסיף את התור ליומן אוטומטית.</li>
+      <li><strong style="color:#0F2A1E">תזכורות אוטומטיות</strong> ללקוח — יום לפני התור, ושוב כמה שעות לפניו, כדי לצמצם ביטולים ואי-הגעות.</li>
+      <li><strong style="color:#0F2A1E">הלקוח מבטל או משנה תור בעצמו</strong> דרך הבוט, ואתם מקבלים על כך התראה מיידית.</li>
+      <li><strong style="color:#0F2A1E">שולח ללקוח קובץ יומן</strong> אחרי אישור התור, כדי שהוא יוכל להוסיף אותו ליומן שלו בלחיצה.</li>
+      <li><strong style="color:#0F2A1E">מרווח אוטומטי בין תורים</strong> — אתם מגדירים כמה זמן להשאיר בין פגישה לפגישה, והבוט שומר על זה.</li>
+    </ul></sc-if>
+    <sc-if value="{{ g2 }}" hint-placeholder-val="{{ false }}"><ul style="margin:0;padding:0 20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px 40px;color:#3B5246;text-wrap:pretty">
+      <li><strong style="color:#0F2A1E">כל ליד נשמר אוטומטית</strong> בטבלה מסודרת בפאנל — בלי אקסלים ובלי פניות שנופלות בין הכיסאות.</li>
+      <li><strong style="color:#0F2A1E">מעקב אחרי לקוחות "חמים"</strong> — הבוט מזהה מי התעניין אבל לא סגר תור, ושולח לו הודעת המשך מותאמת אוטומטית.</li>
+      <li><strong style="color:#0F2A1E">תוכנית "חבר מביא חבר"</strong> — כל לקוח מקבל קוד הפניה אישי, ושני הצדדים מקבלים הנחה כשהחבר מגיע.</li>
+      <li><strong style="color:#0F2A1E">כרטיס ביקור דיגיטלי וקוד QR</strong> — הבוט שולח את פרטי העסק כאיש קשר מוכן, ומייצר QR לשילוט או לפרסום.</li>
+    </ul></sc-if>
+    <sc-if value="{{ g3 }}" hint-placeholder-val="{{ false }}"><ul style="margin:0;padding:0 20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px 40px;color:#3B5246;text-wrap:pretty">
+      <li><strong style="color:#0F2A1E">לוח בקרה חי</strong> שמראה במבט אחד תורים חדשים, בקשות לנציג, שיחות פתוחות וסטטוס העסק (חופשה, חיבור יומן).</li>
+      <li><strong style="color:#0F2A1E">ניהול המידע של העסק</strong> — אתם מוסיפים או משנים שירות, מחיר או מדיניות, והבוט מכיר את השינוי מיד.</li>
+      <li><strong style="color:#0F2A1E">אנליטיקות לפי תקופה</strong> — כמה פניות היו, שעות השיא, מדדי מעורבות ומאיפה הלקוחות מגיעים.</li>
+      <li><strong style="color:#0F2A1E">הבוט מראה לכם על מה הוא לא ידע לענות</strong> — כדי שתשלימו את המידע החסר בלחיצה והוא ישתפר.</li>
+      <li><strong style="color:#0F2A1E">ניהול שירותים, שעות פעילות וימים מיוחדים</strong> — כולל זיהוי חגים ישראליים אוטומטי, עם אפשרות לבטל את הסגירה.</li>
+      <li><strong style="color:#0F2A1E">רשימת לקוחות מלאה</strong> עם חיפוש, תגיות, הערות אישיות ומספר התורים של כל אחד — וייצוא לאקסל בלחיצה.</li>
+    </ul></sc-if>
+    <sc-if value="{{ g4 }}" hint-placeholder-val="{{ false }}"><ul style="margin:0;padding:0 20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px 40px;color:#3B5246;text-wrap:pretty">
+      <li><strong style="color:#0F2A1E">מעבר לנציג אנושי בלחיצה</strong> — כשלקוח צריך אתכם, הבוט משתתק ואתם ממשיכים את השיחה בעצמכם מהפאנל.</li>
+      <li><strong style="color:#0F2A1E">היסטוריית שיחה מלאה</strong> של כל לקוח שמורה לכם, כך שתמיד יש הקשר לפני שאתם עונים.</li>
+      <li><strong style="color:#0F2A1E">התראות בזמן אמת</strong> על תור חדש, שינוי, ביטול או בקשת נציג — גם כשהדפדפן סגור.</li>
+    </ul></sc-if>
+    <sc-if value="{{ g5 }}" hint-placeholder-val="{{ false }}"><ul style="margin:0;padding:0 20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px 40px;color:#3B5246;text-wrap:pretty">
+      <li><strong style="color:#0F2A1E">שידור הודעה לכל הלקוחות או לקבוצה מסוימת</strong> — למשל רק מי שקבע תור, או הלקוחות הפעילים לאחרונה.</li>
+      <li><strong style="color:#0F2A1E">עדכון על שינוי בשעות הפעילות</strong> לכל הלקוחות בלחיצה אחת, בלי לשלוח הודעה אחת-אחת.</li>
+      <li><strong style="color:#0F2A1E">קמפיינים מתוזמנים</strong> — כותבים הודעה, בוחרים קהל וזמן, והמערכת שולחת לבד ומראה לכם כמה נמסרו ונקראו.</li>
+      <li><strong style="color:#0F2A1E">ניהול הרשמה לדיוור</strong> — הלקוחות מצטרפים או מסירים את עצמם, כך שאתם שולחים רק למי שהסכים.</li>
+    </ul></sc-if>
+    <sc-if value="{{ g6 }}" hint-placeholder-val="{{ false }}"><ul style="margin:0;padding:0 20px 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));gap:16px 40px;color:#3B5246;text-wrap:pretty">
+      <li><strong style="color:#0F2A1E">עומד בחוק הפרטיות הישראלי (תיקון 13) וב-GDPR</strong> — הסכמה מפורשת לפני איסוף מידע, בשקיפות מלאה.</li>
+      <li><strong style="color:#0F2A1E">הלקוח שולט במידע שלו</strong> — יכול לראות בכל רגע מה שמור עליו, ולמחוק הכל בפקודה אחת.</li>
+      <li><strong style="color:#0F2A1E">מצב חופשה</strong> — לחיצה אחת, והבוט מודיע ללקוחות שהעסק בחופשה וחוסם קביעת תורים לתקופה.</li>
+      <li><strong style="color:#0F2A1E">חסימת לקוחות מטרידים</strong> ישירות מהפאנל, כדי לשמור על שיחה נקייה ומכובדת.</li>
+      <li><strong style="color:#0F2A1E">דיווח תקלות ישירות אלינו מהפאנל</strong> — כולל צילום מסך — ואנחנו מטפלים עד שהכל עובד.</li>
+    </ul></sc-if>
+  </div>
+</section>
+
+<section data-screen-label="FAQ" style="background:#FFFFFF">
+  <div style="max-width:1160px;margin:0 auto;padding:96px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:48px;align-items:start">
+    <div style="max-width:400px">
+      <p style="margin:0 0 12px;color:#0E7C5A;font-weight:700;font-size:16px">יש לך שאלות? יש לנו תשובות</p>
+      <h2 style="margin:0;font-family:'Secular One',sans-serif;font-weight:400;font-size:clamp(30px,3.4vw,46px);line-height:1.18">שאלות ותשובות</h2>
+      <p style="margin:18px 0 0;font-size:18px;color:#3B5246;text-wrap:pretty">אלו השאלות שכל לקוח שואל לפני שמתחילים — ואנחנו מעדיפים לענות עליהן מראש.</p>
+    </div>
+    <div style="grid-column:span 2;min-width:0;background:#E9EFE6;border-radius:28px;padding:28px;display:flex;flex-direction:column;gap:10px">
+      <div style="align-self:flex-end;max-width:80%;background:#D2F0DC;border-radius:16px 16px 4px 16px;padding:10px 16px;font-weight:700">אני לא איש טכנולוגיה, האם זה בשבילי?</div>
+      <div style="align-self:flex-start;max-width:86%;background:#FFFFFF;border-radius:16px 16px 16px 4px;padding:12px 16px;margin-bottom:12px;text-wrap:pretty">כן! רוב הלקוחות שלנו הם בעלי עסקים, לא מפתחים. אנחנו מסבירים הכול בעברית פשוטה, מלווים אתכם בכל שלב, ומגישים מערכת שאפשר לנהל בעצמכם בלי להבין בקוד.</div>
+      <div style="align-self:flex-end;max-width:80%;background:#D2F0DC;border-radius:16px 16px 4px 16px;padding:10px 16px;font-weight:700">כמה זמן לוקח להתחיל?</div>
+      <div style="align-self:flex-start;max-width:86%;background:#FFFFFF;border-radius:16px 16px 16px 4px;padding:12px 16px;margin-bottom:12px;text-wrap:pretty">לאחר אימות העסק, חיבור ל-WhatsApp API ועלייה לאוויר לוקחים עד חמישה ימי עסקים, תלוי באישורי Meta. לאחר מכן המערכת פעילה מיידית.</div>
+      <div style="align-self:flex-end;max-width:80%;background:#D2F0DC;border-radius:16px 16px 4px 16px;padding:10px 16px;font-weight:700">האם הפלטפורמה מתאימה לעסק קטן?</div>
+      <div style="align-self:flex-start;max-width:86%;background:#FFFFFF;border-radius:16px 16px 16px 4px;padding:12px 16px;margin-bottom:12px;text-wrap:pretty">בהחלט. הבוט מתאים לכל עסק שרוצה לעשות סדר בוואטסאפ — מטיפול נפשי, מסעדות ונדל"ן ועד קוסמטיקה. אין צורך בידע טכני כלשהו.</div>
+      <div style="align-self:flex-end;max-width:80%;background:#D2F0DC;border-radius:16px 16px 4px 16px;padding:10px 16px;font-weight:700">מה אתם צריכים ממני?</div>
+      <div style="align-self:flex-start;max-width:86%;background:#FFFFFF;border-radius:16px 16px 16px 4px;padding:12px 16px;margin-bottom:12px;text-wrap:pretty">רק תכינו רשימה מסודרת של שירותי העסק, מחירים, שעות פתיחה, וכל דבר שתרצו שהבוט יידע על העסק — ואנחנו נדאג לכל השאר.</div>
+      <div style="align-self:flex-end;max-width:80%;background:#D2F0DC;border-radius:16px 16px 4px 16px;padding:10px 16px;font-weight:700">האם אני יכול לראות את הפגישות שנקבעו בדשבורד?</div>
+      <div style="align-self:flex-start;max-width:86%;background:#FFFFFF;border-radius:16px 16px 16px 4px;padding:12px 16px;margin-bottom:12px;text-wrap:pretty">כן, יש לכם בפאנל תצוגה חודשית של לוח שנה עם כל הפגישות בתוכו, כך שאתם תמיד יודעים מה מתוכנן.</div>
+      <div style="align-self:flex-end;max-width:80%;background:#D2F0DC;border-radius:16px 16px 4px 16px;padding:10px 16px;font-weight:700">איך מתחילים?</div>
+      <div style="align-self:flex-start;max-width:86%;background:#FFFFFF;border-radius:16px 16px 16px 4px;padding:12px 16px;text-wrap:pretty">פשוט משאירים פרטים בצ'אט ואנחנו חוזרים אליכם בהקדם 😊</div>
+    </div>
+  </div>
+</section>
+
+<section data-screen-label="Final CTA" style="background:#0F2A1E;color:#FFFFFF">
+  <div style="max-width:1160px;margin:0 auto;padding:104px 24px;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,400px),1fr));gap:56px;align-items:center">
+    <div>
+      <h2 style="margin:0;font-family:'Secular One',sans-serif;font-weight:400;font-size:clamp(34px,4.2vw,58px);line-height:1.12;text-wrap:balance">מוכנים לתת לבוט לענות במקומכם?</h2>
+      <p style="margin:20px 0 0;font-size:18px;color:#C6D8CD;max-width:500px;text-wrap:pretty">חודש ניסיון מלא, בלי כרטיס אשראי ובלי התחייבות. אם זה לא מתאים — פשוט מפסיקים.</p>
+      <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:32px">
+        <a href="https://wa.me/972543978620" target="_blank" rel="noopener" style="flex:none;white-space:nowrap;display:inline-flex;align-items:center;min-height:54px;padding:0 28px;border-radius:999px;background:#0E7C5A;color:#FFFFFF;text-decoration:none;font-weight:700;font-size:18px;transition:background-color .15s,transform .15s" style-hover="background:#12936B" style-active="transform:scale(0.98)">שלחו הודעה בוואטסאפ</a>
+        <a href="https://ai-business-chatbot-kjm4.onrender.com/demo" target="_blank" rel="noopener" style="flex:none;white-space:nowrap;display:inline-flex;align-items:center;min-height:54px;padding:0 28px;border-radius:999px;border:1.5px solid #4E6E5E;color:#FFFFFF;text-decoration:none;font-weight:700;font-size:18px;transition:border-color .15s" style-hover="border-color:#FFFFFF">סיור בפאנל</a>
+      </div>
+    </div>
+    <div style="justify-self:end;width:100%;max-width:440px;display:flex;flex-direction:column;gap:8px">
+      <div style="display:flex;align-items:center;gap:10px;font-size:15px;color:#C6D8CD"><span style="width:40px;height:40px;border-radius:50%;background:#D2F0DC;color:#0F2A1E;display:flex;align-items:center;justify-content:center;font-family:'Secular One',sans-serif;font-size:16px;flex:none">א״ב</span><span><strong style="color:#FFFFFF">אמיר בירון</strong> · מפתח · אוטומציה בקלות</span></div>
+      <div style="background:#FFFFFF;color:#0F2A1E;border-radius:6px 22px 22px 22px;padding:20px 22px;font-size:18px;line-height:1.6;text-wrap:pretty">אני בונה את המערכת, אני מקים אותה אצלכם, ואני זה שעונה כשמשהו לא עובד. מדברים איתי — לא עם מוקד.</div>
+    </div>
+  </div>
+</section>
+
+<footer style="max-width:1200px;margin:0 auto;padding:40px 24px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px 24px;font-size:15px;color:#5D5A54">
+  <span>© 2026 אוטומציה בקלות · בוטים ואוטומציות לעסקים</span>
+  <a href="https://wa.me/972543978620" target="_blank" rel="noopener" dir="ltr">wa.me/972543978620</a>
+</footer>
+
+<sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+  <div style="position:fixed;left:0;right:0;bottom:0;z-index:20;padding:12px 16px calc(12px + env(safe-area-inset-bottom));background:rgba(246,244,239,0.94);border-top:1px solid #E3DFD6;backdrop-filter:blur(8px)">
+    <a href="https://wa.me/972543978620" target="_blank" rel="noopener" style="display:flex;align-items:center;justify-content:center;min-height:52px;border-radius:999px;background:#1E7A4E;color:#FFFFFF;text-decoration:none;font-weight:700;font-size:18px">התחילו 30 יום חינם</a>
+  </div>
+</sc-if>
+
+<sc-if value="{{ lightbox }}" hint-placeholder-val="{{ false }}">
+  <div onClick="{{ closeLb }}" role="dialog" aria-label="ההודעה המקורית" style="position:fixed;inset:0;z-index:40;background:rgba(18,22,32,0.82);display:flex;align-items:center;justify-content:center;padding:24px;cursor:zoom-out">
+    <sc-if value="{{ lbW }}" hint-placeholder-val="{{ false }}"><img src="assets/fb-werai.png" alt="ההמלצה המקורית" style="max-width:min(100%,560px);max-height:90vh;border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,0.5)"></sc-if><sc-if value="{{ lbD }}" hint-placeholder-val="{{ false }}"><img src="assets/fb-delivery.png" alt="ההמלצה המקורית" style="max-width:min(100%,560px);max-height:90vh;border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,0.5)"></sc-if><sc-if value="{{ lbR }}" hint-placeholder-val="{{ false }}"><img src="assets/fb-routine.png" alt="ההמלצה המקורית" style="max-width:min(100%,560px);max-height:90vh;border-radius:16px;box-shadow:0 30px 80px rgba(0,0,0,0.5)"></sc-if>
+  </div>
+</sc-if>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  state = { tab: 'chat', cap: 0, lb: null, mobile: false };
+  componentDidMount() {
+    this.onResize = () => this.setState({ mobile: window.innerWidth < 720 });
+    this.onResize();
+    window.addEventListener('resize', this.onResize);
+    this.onKey = e => { if (e.key === 'Escape') this.setState({ lb: null }); };
+    window.addEventListener('keydown', this.onKey);
+  }
+  componentWillUnmount() {
+    window.removeEventListener('resize', this.onResize);
+    window.removeEventListener('keydown', this.onKey);
+  }
+  renderVals() {
+    const { tab, cap, lb, mobile } = this.state;
+    const v = { isMobile: mobile, dockPad: mobile ? '84px' : '0px', closeLb: () => this.setState({ lb: null }),
+      lightbox: !!lb, lbW: lb === 'w', lbD: lb === 'd', lbR: lb === 'r',
+      openWerai: () => this.setState({ lb: 'w' }), openDelivery: () => this.setState({ lb: 'd' }), openRoutine: () => this.setState({ lb: 'r' }) };
+    [['Chat','chat'],['Kb','kb'],['Cal','cal']].forEach(([k, id]) => {
+      const on = tab === id;
+      v['tab' + k] = on;
+      v['bg' + k] = on ? '#F6F4EF' : 'transparent';
+      v['fg' + k] = on ? '#121620' : '#C9CEDA';
+      v['show' + k] = () => this.setState({ tab: id });
+    });
+    for (let i = 0; i < 7; i++) {
+      const on = cap === i;
+      v['g' + i] = on;
+      v['cb' + i] = on ? '#0F2A1E' : '#FFFFFF';
+      v['cf' + i] = on ? '#FFFFFF' : '#0F2A1E';
+      v['c' + i] = () => this.setState({ cap: i });
+    }
+    return v;
+  }
+}
+</script>
+</body>
+</html>
